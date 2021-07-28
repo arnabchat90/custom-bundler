@@ -1,0 +1,24 @@
+{
+  "name": "custom-bundler",
+  "version": "1.0.0",
+  "main": "./example/entry.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-specifier-resolution=node ./example/entry.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/parser": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/traverse": "^7.14.8",
+    "@babel/types": "^7.14.8",
+    "@types/babel-traverse": "^6.25.6",
+    "eslint": "^7.31.0"
+  },
+  "dependencies": {
+    "babylon": "^6.18.0",
+    "global": "^4.4.0",
+    "js-beautify": "^1.14.0"
+  }
+}
